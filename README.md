@@ -71,10 +71,7 @@ dist-ssr
 
 ---
 
-### ✅ Ab kya kare?
-1. `backend` folder me `README.md` banao  
-2. Upar ka content paste karo  
-3. Commit & push:
+###  Commit & push:
 
 ```bash
 git add README.md
