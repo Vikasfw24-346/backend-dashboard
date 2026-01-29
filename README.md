@@ -44,7 +44,7 @@ Create a `.env` file in the root directory and add:
 6. MONGO_URI=mongodb+srv://vikastiwari26071997:2310662@cluster0.t1tryug.mongodb.net/Visualization_Dashboard
 
 2. gitignore file ke liye
-# logs 
+# logs/ .gitinore
 logs 
 *.log
 npm-debug.log* 
