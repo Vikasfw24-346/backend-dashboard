@@ -7,12 +7,20 @@ import Insights from "./routes/insights.js";
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.use(cors());
+//STEP 2: Proper CORS configuration (IMPORTANT)
+app.use(
+  cors({
+    origin: "*", // beginner / assignment ke liye OK
+    methods: ["GET", "POST", "PUT", "DELETE"],
+  })
+);
+
 app.use(express.json());
 
 // DB connection
 connectDB();
 
+// Routes
 app.use("/api/insights", Insights);
 
 app.get("/", (req, res) => {
