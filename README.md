@@ -13,6 +13,8 @@ It provides REST APIs to fetch and manage data used by the frontend dashboard.
 - Mongoose
 - dotenv
 - CORS
+- body-parser
+- nodemon
 
 ---
 
@@ -41,6 +43,8 @@ Create a `.env` file in the root directory and add:
 2. MONGO_URI = your_mongodb_atlas_uri
 3. PORT = 4000
 4. VITE_API_URL=http://localhost:4000
+
+## For run the backend server command is : npm run server
 
 ## Deployment
 ## Frontend (Vercel):
